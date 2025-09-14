@@ -1,0 +1,7 @@
+{
+    "crons": [
+        { "path": "/api/ical/ingest", "schedule": "0 6 * * *" },
+        { "path": "/api/summary/make", "schedule": "5 7 * * *" },
+        { "path": "/api/digest/send", "schedule": "0 8 * * *" }
+    ]
+}
